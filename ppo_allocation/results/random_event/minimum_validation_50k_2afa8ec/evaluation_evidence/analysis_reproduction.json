@@ -1,0 +1,22 @@
+{
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20260827,
+  "generated_at": "2026-08-27T03:22:10.118383+00:00",
+  "multiplicity": "Holm correction within each 10-metric comparison family",
+  "numpy": "2.0.2",
+  "paired_effect_implementation": "ppo_allocation.random_event.metrics.paired_difference",
+  "paired_metrics_imported_from": "ppo_allocation.random_event.experiment.PAIRED_METRICS",
+  "prohibited_operations": {
+    "checkpoint_25000_performance_read": false,
+    "checkpoint_selection": false,
+    "protocol_change": false,
+    "resume_training": false,
+    "retraining": false,
+    "validation": false
+  },
+  "python": "3.11.5",
+  "script": "analyze_evaluation.py",
+  "script_sha256": "9d7bf1f81a259cf86a0ff893f4663175d0a80ed0c56e5be989484d47c9823be5",
+  "seed_uncertainty": "paired seed-mean t interval with df=2",
+  "status": "PASS"
+}

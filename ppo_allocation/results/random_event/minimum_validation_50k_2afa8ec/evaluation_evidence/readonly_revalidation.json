@@ -1,0 +1,37 @@
+{
+  "attested_source_commit_sha": "32974ec85be71e192b12cae85d00eb877d5fe07d",
+  "checked_at": "2026-08-27T03:24:32.400441+00:00",
+  "checks": {
+    "analysis_outputs_present": "PASS",
+    "checkpoint_25000_performance": "NOT_READ_OR_COMPARED",
+    "checkpoint_selection_absent": "PASS",
+    "fixed_six_50000_freeze": "PASS",
+    "formal_p0_gate_entrypoint": "PASS",
+    "held_out_100_unique_20x5": "PASS",
+    "held_out_lock_complete": "PASS",
+    "inventory_all_match": "PASS",
+    "model_case_results_600_unique": "PASS",
+    "paired_metrics_contract": "PASS",
+    "result_files_6_sha_match": "PASS",
+    "retraining_or_resume": "NOT_PERFORMED",
+    "tracked_source_diff": "NONE",
+    "training_seal_48_artifacts": "PASS",
+    "validation_artifacts": "NONE"
+  },
+  "evaluation_evidence": {
+    "bytes": 9132,
+    "path": "ppo_allocation/results/random_event/minimum_validation_50k_2afa8ec/evaluation_evidence/evaluation_evidence.json",
+    "sha256": "b3280b2f503514c6605e31e4adc3ff2d554fba66d826a4dd09911740b2983138"
+  },
+  "revalidation_type": "post_evaluation_seal_readonly_revalidation",
+  "runtime_evidence_head": "2afa8ec1cb481deb57645dbd30240d90d32d2233",
+  "schema_version": 1,
+  "sha256_inventory": {
+    "bytes": 41907,
+    "mismatches": 0,
+    "path": "ppo_allocation/results/random_event/minimum_validation_50k_2afa8ec/evaluation_evidence/sha256_inventory.json",
+    "sha256": "d5aa5ed5e7bf0affaab0bdabffbbaf0ac0abf2795fc6ae642777600929b29aae",
+    "verified_artifacts": 143
+  },
+  "status": "PASS"
+}
