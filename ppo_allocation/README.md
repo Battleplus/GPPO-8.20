@@ -2,6 +2,10 @@
 
 本项目是一个无人机搜索任务局部重分配的 PPO 代码框架。
 
+## 研究备忘录
+
+- [GPPO 协调压力优势假设：证据总结与验证设计](../docs/GPPO_COORDINATION_STRESS_VALIDATION_PLAN_ZH.md)
+
 核心设定：
 
 - PPO 不负责跟踪任务；
